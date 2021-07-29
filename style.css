@@ -1,0 +1,67 @@
+
+/* font style  */
+.font-design{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* background color of first section  */
+.container-bg{
+    background-color:#264653;
+
+}
+/* gray scale of featured bike section  */
+.image-gray-1{
+    filter:grayscale(70%);
+}
+
+.image-gray-2{
+    filter:grayscale(90%);
+}
+
+/* column size  */
+
+.column-custom-size{
+    height:478px;
+    width:322px;
+}
+ /* custom text color */
+.text-occupation-color{
+    color:#252B42;
+}
+.text-clients-color{
+    color:#6C6C6C;
+
+}
+.text-custom-color{
+    color:#E76F51;
+}
+/* custom buttom design  */
+.button-design a{
+    background-color: none;
+    border-color: #E76F51;
+    color:#E76F51;
+}
+
+.button-design a:hover{
+    background-color: #E76F51;
+    color:white;
+
+}
+
+/* responsive video section  */
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+ 
